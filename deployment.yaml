@@ -16,6 +16,6 @@ spec:
       - name: hello-app
         # Use seu usuário do Docker Hub. Esta linha será
         # atualizada automaticamente pelo GitHub Actions.
-        image: andreviniciusdevops/hello-app:latest 
+        image: andreviniciusdevops/hello-app:sha-923d477
         ports:
         - containerPort: 8000
